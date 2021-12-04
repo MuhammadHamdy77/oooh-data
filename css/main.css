@@ -3303,6 +3303,10 @@ margin:auto
   .reports-free .forms-reports-free .form-reports-right input {
     width: 100%;
   }
+
+  footer .find-us{
+    width: 80%;
+  }
 }
 
 
