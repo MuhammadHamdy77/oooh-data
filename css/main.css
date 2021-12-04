@@ -3424,4 +3424,8 @@ margin:auto
   .btn-control{
     bottom: -120px;
   }
+
+  .section-challenges .industry-challenges .parent-accordion .content-acoordion .box p{
+    font-size: 11px;
+  }
 }
