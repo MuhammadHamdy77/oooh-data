@@ -2596,6 +2596,7 @@ footer .find-us .social-media-footer ul li i {
 @media (max-width: 992px) {
   nav .navbar-top {
     justify-content: space-between;
+    width: 100%;
   }
   nav .navbar-top .list-navbar {
     display: none;
