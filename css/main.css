@@ -3056,6 +3056,13 @@ footer .find-us .social-media-footer ul li i {
   }
   header .get-touch {
     padding: 1rem;
+    flex-wrap: wrap;
+  }
+  header .get-touch .btn-message{
+margin:auto
+  }
+  header .get-touch .btn-message button{
+    margin-top: 8px;
   }
   .many-location .accordion-country {
     width: 100%;
@@ -3157,6 +3164,38 @@ footer .find-us .social-media-footer ul li i {
   }
   .information-center-4 .content p {
     line-height: 1.5;
+  }
+  .many-location .countries-links{
+    flex-wrap: wrap;
+
+  }
+  .many-location .countries-links li{
+    width: 160px;
+    margin: 8px 0;
+  }
+
+  .countries-links li.eg.active::before, .countries-links li.leb.active::before, 
+  .countries-links li.saudi.active::before, .countries-links li.uae.active::before{
+    display: none;
+  }
+  .many-location .acorrdion-egypt .acordion-headding{
+    width: auto;
+  }
+  .many-location .acorrdion{
+    max-width: 95%;
+    margin: auto;
+  }
+  .table-country{
+    width:90%;
+    margin: 50px auto;
+  }
+  .expenditure-section .img-expenditure img{
+    width: calc(100% / 5 );
+  }
+
+  .many-location .btns-accordion-eg button{
+    width: calc(90% / 2);
+    font-size: 12px;
   }
 }
 @media (max-width: 550px) {
@@ -3267,6 +3306,10 @@ footer .find-us .social-media-footer ul li i {
 
 @media (max-width:450px) {
   
+
+  header .home-header .content h2{
+    font-size: 55px;
+  }
   header .home-header .content p{
     width: 100%;
     margin: auto;
@@ -3274,7 +3317,7 @@ footer .find-us .social-media-footer ul li i {
     text-align: center;
   }
   header .home-header .content span{
-    width: 100%;
+    width: 90%;
     margin: auto;
     text-align: center;
     margin-top: 8px;
