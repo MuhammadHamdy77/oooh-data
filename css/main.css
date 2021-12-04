@@ -3210,6 +3210,20 @@ margin:auto
     width: 64px;
     height: 62px;
   }
+
+  .our-solutions .box-our-solutions .imgs-left{
+    margin-right: 15px;
+  }
+  .our-solutions .box-our-solutions .content-our-solutions-right h3{
+    font: normal normal bold 18px/20px Nunito;
+  }
+  .our-solutions .box-our-solutions .content-our-solutions-right p{
+    font: normal normal normal 12px/20px Nunito;
+  }
+  .why-ooh-data .btn-message-us .myBtn,
+  .our-clients-portal .our-clients-left .myBtn{
+    width: 100%;
+  }
 }
 @media (max-width: 550px) {
   .whats-publications .box-whats-new-publications {
