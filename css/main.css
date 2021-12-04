@@ -3138,7 +3138,7 @@ margin:auto
   }
   .ourvision-about .icons-title-left,
   .ourvision-about .video-play-right {
-    width: 90%;
+    width: 100%;
   }
   .video-play-right .img-newyork {
     width: 200px;
@@ -3198,6 +3198,17 @@ margin:auto
   .many-location .btns-accordion-eg button{
     width: calc(90% / 2);
     font-size: 12px;
+  }
+
+  .ourvision-about .icons-title-left .ours .content p{
+    font: normal normal bold 10px/14px Nunito;
+  }
+  .ourvision-about .icons-title-left .ours{
+    align-items: stretch;
+  }
+  .ourvision-about .icons-title-left .imgs img{
+    width: 64px;
+    height: 62px;
   }
 }
 @media (max-width: 550px) {
@@ -3267,21 +3278,17 @@ margin:auto
     width: 76px;
   }
   .video-play-right .img-newyork {
-    width: 180px;
-    height: 180px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
+    width: 100%;
   }
   .about-header .digitalising-about {
-    max-width: 80%;
+    max-width: 90%;
   }
   .about-header .digitalising-about h3 {
-    font-size: 22px;
+    font-size: 16px;
   }
   .about-header .digitalising-about p {
     max-width: 100%;
-    font-size: 11px;
+    font:normal normal bold 12px/16px Nunito;
   }
   .information-center-4 .content p {
     max-width: 100%;
