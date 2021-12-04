@@ -2134,6 +2134,7 @@ footer .find-us .social-media-footer ul li i {
 .contact-us .form-contact .list-roles .dropdown-roles {
   position: absolute;
   top: 65px;
+  left: 0;
   width: 100%;
   text-align: center;
   background-color: #f4f6fc;
@@ -2269,7 +2270,7 @@ footer .find-us .social-media-footer ul li i {
   position: relative;
   outline: 0;
   box-shadow: none;
-  border-color: none;
+  border-color: transparent;
 }
 .header-login .overlay .layer .content .form-login .form-group:nth-of-type(2) {
   position: relative;
@@ -3224,6 +3225,16 @@ margin:auto
   .our-clients-portal .our-clients-left .myBtn{
     width: 100%;
   }
+
+  .contact-us .form-contact label{
+    font: normal normal 600 18px/25px Nunito;
+  }
+  .contact-us .form-contact input{
+    height: 50px;
+  }
+  .contact-us .contact-address .details-address-contact p{
+    font: normal normal bold 14px/24px Nunito;
+  }
 }
 @media (max-width: 550px) {
   .whats-publications .box-whats-new-publications {
@@ -3457,4 +3468,8 @@ margin:auto
   footer .find-us{
     width: 80%;
   }
+  .contact-us .details-contact{
+    font: normal normal bold 14px/30px Nunito;
+  }
+
 }
