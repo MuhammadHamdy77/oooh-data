@@ -3074,11 +3074,12 @@ margin:auto
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     position: relative;
     margin: 0;
-    left: 100px;
-    bottom: 35px;
+    flex-wrap: wrap;
+  }
+  .section-challenges .industry-challenges .industry-acc .buttons-change button{
+    width: 100%;
   }
   .section-challenges
     .industry-challenges
@@ -3321,5 +3322,105 @@ margin:auto
     margin: auto;
     text-align: center;
     margin-top: 8px;
+  }
+  .table-country .table-head .box{
+    font-size: 16px;
+  }
+  .table-country .table-body .row .box{
+    height: 105px;
+  }
+  .table-country .table-body .row-one .box:nth-of-type(2), .table-country .table-body .row-one .box:nth-of-type(3), .table-country .table-body .row-three .box:nth-of-type(2), .table-country .table-body .row-three .box:nth-of-type(3), .table-country .table-body .row-two .box:nth-of-type(2), .table-country .table-body .row-two .box:nth-of-type(3){
+    line-height: 100px;
+  }
+  .row-one .box:first-of-type, 
+  .row-three .box:first-of-type , 
+  .row-two .box:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .many-location .acorrdion-leb p, .many-location .acorrdion-saudi p, .many-location .acorrdion-uae p{
+    width: 100%;
+    font-size: 14px;
+  }
+  .many-location .acorrdion-leb .img-under, .many-location .acorrdion-saudi .img-under, .many-location .acorrdion-uae .img-under{
+    width: 100%;
+  }
+  .many-location .acorrdion-leb h3, .many-location .acorrdion-saudi h3, .many-location .acorrdion-uae h3{
+    width: 100%;
+    font-size: 24px;
+  }
+  .many-location .acorrdion{
+    height: auto;
+    padding: 0 0 30px;
+  }
+  .many-location .btns-accordion-eg{
+    width: 100%;
+  }
+  .many-location .btns-accordion-eg button{
+    width: calc(90% / 2);
+    font-size: 12px;
+  }
+
+  .the-future .the-future-left h2{
+    font-size: 30px;
+  }
+  .the-future .the-future-left p{
+    margin:15px auto;
+    width: 100%;
+  }
+  .the-future .the-future-right{
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 270px;
+  }
+  .section-challenges .industry-challenges .parent-accordion .sidebar-accordion,
+  .section-challenges .industry-challenges .parent-accordion .content-acoordion{
+    width: 100%;
+  }
+  .section-challenges .industry-challenges .parent-accordion{
+    flex-wrap:wrap ;
+  }
+  .section-challenges .industry-challenges .parent-accordion .content-acoordion{
+    padding: 0 10px;
+  }
+  .section-challenges .industry-challenges{
+    width: 100%;
+  }
+  .section-challenges .industry-challenges .parent-accordion .sidebar-accordion .btns-sidebar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section-challenges .industry-challenges .parent-accordion .sidebar-accordion .btns-sidebar .myBtn{
+    margin: 5px 0;
+    height: 30px;
+  }
+  .section-challenges .industry-challenges .industry-acc{
+    padding: 1rem 0.5rem 16rem;
+  }
+  .section-challenges .industry-challenges .industry-acc > p{
+    margin-bottom: 15px;
+  }
+  .section-challenges .industry-challenges .industry-acc .buttons-change{
+    left: 0;
+    right: 0;
+  }
+  .section-challenges .industry-challenges .industry-acc .buttons-change button{
+    
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .reports-section p{
+    font-size: 23px;
+  }
+  .reports-section .slider-reports{
+    width: 98%;
+  }
+  .btn-control{
+    bottom: -120px;
   }
 }
